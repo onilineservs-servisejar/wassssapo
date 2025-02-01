@@ -1,0 +1,107 @@
+body {
+   display: flex;
+   justify-content: center; /* توسيط أفقي */
+   align-items: center; /* توسيط عمودي */
+   height: 100vh;
+   margin: 0;
+   background-color: #f0f0f0; /* خلفية فاتحة */
+   
+   }
+
+.container {
+    background: #ffffff;
+    width: 90%;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* تنسيق صورة الواتساب */
+.whatsapp-logo {
+    width: 300px; /* تكبير حجم الصورة */
+    margin-bottom: 20px; /* مسافة بين الصورة والزر */
+}
+
+/* جعل الزر في المنتصف */
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* تكبير حجم الزر */
+.whatsapp-button {
+    background-color: #25D366;
+    color: white;
+    padding: 15px 25px; /* زيادة التباعد */
+    font-size: 20px; /* تكبير الخط */
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 100%; /* جعل الزر يمتد بالكامل */
+    max-width: 280px; /* تحديد عرض مناسب */
+    transition: 0.3s;
+    width: 200px; /* تغيير عرض الزر */
+    height: 60px; /* تغيير ارتفاع الزر */
+    position: relative; /* لتعديل مكانه إذا لزم */
+    top: 0px; /* حركه لأعلى أو أسفل */
+    left: 0px; /* حركه لليمين أو اليسار */
+}
+
+.whatsapp-button:hover {
+    background-color: #1ebe5d;
+}
+
+.whatsapp-button {
+    background-color: #90ee90; /* لون أخضر فاتح */
+    color: white;
+    border: none;
+    padding: 15px 30px; /* حجم افتراضي */
+    font-size: 20px; /* تكبير الخط */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* تأثير عند تمرير الماوس */
+.whatsapp-button:hover {
+    background-color: #77dd77;
+}
+
+/* إمكانية التحكم بالحجم والمكان بسهولة */
+.whatsapp-button {
+    width: 200px; /* تغيير عرض الزر */
+    height: 60px; /* تغيير ارتفاع الزر */
+    position: relative; /* لتعديل مكانه إذا لزم */
+    top: 0px; /* حركه لأعلى أو أسفل */
+    left: 0px; /* حركه لليمين أو اليسار */
+}
+
+--->
+/* تنسيق الزر */
+.whatsapp-button {
+    background-color: #90ee90; /* لون أخضر فاتح */
+    color: white;
+    border: none;
+    padding: 15px 30px; /* حجم افتراضي */
+    font-size: 20px; /* تكبير الخط */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* تأثير عند تمرير الماوس */
+.whatsapp-button:hover {
+    background-color: #77dd77;
+}
+
+/* إمكانية التحكم بالحجم والمكان بسهولة */
+.whatsapp-button {
+    width: 200px; /* تغيير عرض الزر */
+    height: 50px; /* تغيير ارتفاع الزر */
+    position: relative; /* لتعديل مكانه إذا لزم */
+    top: 0px; /* حركه لأعلى أو أسفل */
+    left: 0px; /* حركه لليمين أو اليسار */
+}
